@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="701a1576-a9dc-4974-b1cb-4e55a6441752" name="Changes" comment="offferII066">
+      <change afterPath="$PROJECT_DIR$/offerII064.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,7 +183,7 @@
       <workItem from="1660530395021" duration="1843000" />
       <workItem from="1660532427081" duration="1005000" />
       <workItem from="1660533447789" duration="308000" />
-      <workItem from="1660533764633" duration="13541000" />
+      <workItem from="1660533764633" duration="14184000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1660532222609</created>
