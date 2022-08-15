@@ -19,12 +19,12 @@ class Solution:
                 # &位与
                 # >> 除以2^k
                 if bit == 0:
-                    # if not cur.left:
-                    cur.left = Trie()
+                    if not cur.left:
+                        cur.left = Trie()
                     cur = cur.left
                 else:
-                    # if not cur.right:
-                    cur.right = Trie()
+                    if not cur.right:
+                        cur.right = Trie()
                     cur = cur.right
 
         def check(num: int) -> int:
