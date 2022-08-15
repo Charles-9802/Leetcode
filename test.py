@@ -1,3 +1,2 @@
-a = [1, 2, 3, 4]
-
-print(a[len(a)-1:len(a)])
+a = (100 >> 6)
+print(a)
