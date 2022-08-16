@@ -1,0 +1,2 @@
+max(dic, key=lambda x: dic[x])
+max(dic, key=dic.get)
