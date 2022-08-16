@@ -1,2 +1,14 @@
 max(dic, key=lambda x: dic[x])
 max(dic, key=dic.get)
+
+# out = []
+# def swy(seq):
+#     for item in seq:
+#         if isinstance(item, list):
+#             swy(item)
+#         else:
+#             out.append(item)
+#     return out
+#
+#
+# print(swy([1, [2, 3], [[4, 5], [6]]]))
