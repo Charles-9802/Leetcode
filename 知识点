@@ -1,6 +1,7 @@
 max(dic, key=lambda x: dic[x])
 max(dic, key=dic.get)
 
+# 扩展为一维数组
 # out = []
 # def swy(seq):
 #     for item in seq:
@@ -12,3 +13,10 @@ max(dic, key=dic.get)
 #
 #
 # print(swy([1, [2, 3], [[4, 5], [6]]]))
+
+# 去掉字符串前空格
+# length = len(str)
+# while str[i] == " ":
+#     i += 1
+#     if i == length:
+#         return 0
