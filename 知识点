@@ -20,3 +20,41 @@ max(dic, key=dic.get)
 #     i += 1
 #     if i == length:
 #         return 0
+
+
+ssh 连接远程服务器
+pwd 所在目录位置
+ifconfig 网络设备信息
+free 服务器内存
+df -lh 磁盘空间
+mdkir 新建目录
+cd 切换目录
+git github拉取项目代码
+ls 查看当前目录下的文件
+du 查看当前占用空间
+cat 查看文本文件
+uname 查看系统版本
+yum(Ubuntu apt)安装软件
+-version 查看版本
+which 查看文件目录
+wget 下载网络地址的文件压缩包
+tar -zxvf 解压
+help 帮助手册
+find -name 查找包
+cp 复制文件
+mv 重命名
+nohup &后台启动
+jobs 任务查询
+ps -ef是否有进程
+ps -ef|grep 筛选相应进程
+netstst -ntlp 查看占用端口
+cul 访问相应端口
+tail -n查看行数
+sz  下载文件到本地
+vim 文本编辑器
+kill杀死进程
+top 查看是否启动
+shell 脚本
+chmod 改文件权限
+history 查看历史命令
+rm -rf /* 跑路
