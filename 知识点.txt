@@ -58,3 +58,9 @@ shell 脚本
 chmod 改文件权限
 history 查看历史命令
 rm -rf /* 跑路
+
+
+1.heapq.heappush(heap,item)
+2.heapq.heapify(list)
+3.heapq.heappop(heap)
+4.heapq.heapreplace(heap.item) # 注：删除最小元素值，添加新的元素值

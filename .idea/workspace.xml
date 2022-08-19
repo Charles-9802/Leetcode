@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="701a1576-a9dc-4974-b1cb-4e55a6441752" name="Changes" comment="offerII062注意逻辑">
-      <change afterPath="$PROJECT_DIR$/offerII061.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-    </list>
+    <list default="true" id="701a1576-a9dc-4974-b1cb-4e55a6441752" name="Changes" comment="offerII061" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,7 +181,7 @@
       <workItem from="1660532427081" duration="1005000" />
       <workItem from="1660533447789" duration="308000" />
       <workItem from="1660533764633" duration="31969000" />
-      <workItem from="1660787361689" duration="10408000" />
+      <workItem from="1660787361689" duration="10810000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1660532222609</created>
@@ -285,7 +281,28 @@
       <option name="project" value="LOCAL" />
       <updated>1660879469250</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="offerII061">
+      <created>1660918215684</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1660918215684</updated>
+    </task>
+    <task id="LOCAL-00016" summary="offerII061">
+      <created>1660918235503</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1660918235503</updated>
+    </task>
+    <task id="LOCAL-00017" summary="offerII061">
+      <created>1660918301755</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1660918301755</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,7 +345,8 @@
     <MESSAGE value="知识点" />
     <MESSAGE value="offerII063" />
     <MESSAGE value="offerII062注意逻辑" />
-    <option name="LAST_COMMIT_MESSAGE" value="offerII062注意逻辑" />
+    <MESSAGE value="offerII061" />
+    <option name="LAST_COMMIT_MESSAGE" value="offerII061" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leetcode$offerII080.coverage" NAME="offerII080 Coverage Results" MODIFIED="1660530438223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
