@@ -16,7 +16,7 @@ class Solution:
         n = 0
         for a in nums1[:k]:
             for b in nums2[:k]:
-                heapq.heappush(Q, (-a-b, [a, b]))
+                heapq.heappush(Q, (-a - b, [a, b]))
                 if n < k:
                     n += 1
                 else:
