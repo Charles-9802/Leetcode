@@ -20,8 +20,10 @@
 #
 # print(swy([1, [2, 3], [[4, 5], [6]]]))
 
-sentence = "the cattle was rattled by the battery"
-sentence = sentence.split(" ")
-print(sentence)
+# sentence = "the cattle was rattled by the battery"
+# sentence = sentence.split(" ")
+# print(sentence)
 
 
+a = "abc"
+print(a[:1])

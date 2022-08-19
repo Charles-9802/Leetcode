@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="701a1576-a9dc-4974-b1cb-4e55a6441752" name="Changes" comment="知识点">
+    <list default="true" id="701a1576-a9dc-4974-b1cb-4e55a6441752" name="Changes" comment="offerII063">
+      <change afterPath="$PROJECT_DIR$/offerII062.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/offerII063.py" beforeDir="false" afterPath="$PROJECT_DIR$/offerII063.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +52,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.offerII063">
+  <component name="RunManager" selected="Python.test">
     <configuration name="offer067" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,8 +165,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.offerII063" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.offerII063" />
         <item itemvalue="Python.offer067" />
         <item itemvalue="Python.offerII065" />
         <item itemvalue="Python.offerII067" />
@@ -184,7 +184,8 @@
       <workItem from="1660530395021" duration="1843000" />
       <workItem from="1660532427081" duration="1005000" />
       <workItem from="1660533447789" duration="308000" />
-      <workItem from="1660533764633" duration="29676000" />
+      <workItem from="1660533764633" duration="31969000" />
+      <workItem from="1660787361689" duration="5156000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1660532222609</created>
@@ -270,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660704957500</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="offerII063">
+      <created>1660725419544</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1660725419544</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +319,8 @@
     <MESSAGE value="offferII063" />
     <MESSAGE value="offer067" />
     <MESSAGE value="知识点" />
-    <option name="LAST_COMMIT_MESSAGE" value="知识点" />
+    <MESSAGE value="offerII063" />
+    <option name="LAST_COMMIT_MESSAGE" value="offerII063" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leetcode$offerII080.coverage" NAME="offerII080 Coverage Results" MODIFIED="1660530438223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -321,7 +330,7 @@
     <SUITE FILE_PATH="coverage/leetcode$offerII070.coverage" NAME="offerII070 Coverage Results" MODIFIED="1660533458053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$offerII065.coverage" NAME="offerII065 Coverage Results" MODIFIED="1660565377037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$offer067.coverage" NAME="offer067 Coverage Results" MODIFIED="1660641590291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$test.coverage" NAME="test Coverage Results" MODIFIED="1660724644385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$test.coverage" NAME="test Coverage Results" MODIFIED="1660726092179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$offerII074.coverage" NAME="offerII074 Coverage Results" MODIFIED="1660530445709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
