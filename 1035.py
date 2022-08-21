@@ -6,7 +6,7 @@ class Solution:
                 if nums1[i-1] == nums2[j-1]:
                     dp[i][j] = dp[i-1][j-1] + 1
                 else:
-                    dp[i][j] = max(dp[i][j-1], dp[i-1][j])
+                    dp[i][j] = max(dp[i][j-1], dp[i-1][j])  # 不连续
         return dp[-1][-1]
 
 

@@ -7,7 +7,7 @@ class Solution:
                 if text1[i - 1] == text2[j - 1]:
                     dp[i][j] = dp[i - 1][j - 1] + 1
                 else:
-                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])        # 不连续
             print(dp)
         return dp[-1][-1]
 
