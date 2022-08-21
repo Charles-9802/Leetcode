@@ -9,6 +9,7 @@ class Solution:
                 if nums1[i-1] == nums2[j-1]:
                     dp[i][j] = dp[i - 1][j - 1] + 1
                 result = max(result, dp[i][j])
+            print(dp)
         return result
 
 
