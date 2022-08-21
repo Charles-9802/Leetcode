@@ -1,4 +1,5 @@
 # 最长重复子数组
+# 连续
 class Solution:
     def findLength(self, nums1, nums2) -> int:
         dp = [[0] * (len(nums2) + 1) for _ in range(len(nums1) + 1)]
@@ -8,7 +9,6 @@ class Solution:
                 if nums1[i-1] == nums2[j-1]:
                     dp[i][j] = dp[i - 1][j - 1] + 1
                 result = max(result, dp[i][j])
-            print(dp)
         return result
 
 
