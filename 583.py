@@ -23,6 +23,8 @@ class Solution:
                 else:
                     dp[i][j] = max(dp[i-1][j], dp[i][j-1])
         return (len(word1) + len(word2) - dp[-1][-1] * 2)
+
+
 def main():
     word1 = "sea"
     word2 = "eat"

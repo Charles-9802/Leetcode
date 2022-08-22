@@ -7,7 +7,7 @@ class Solution:
                 if s[i-1] == t[j-1]:
                     dp[i][j] = dp[i-1][j-1] + 1
                 else:
-                    dp[i][j] = dp[i][j-1]   # 编辑距离
+                    dp[i][j] = dp[i][j-1]   # 编辑距离，删除元素
                 result = max(result, dp[i][j])
         return result == len(s)
 
