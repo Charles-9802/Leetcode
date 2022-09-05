@@ -86,3 +86,17 @@ SQL18 分组计算练习题: select gender, university, count(device_id) as user
 as avg_question_cnt from user_profile group by gender, university                                   # 分组查询
 SQL19 分组过滤练习题：select university, avg(question_cnt) as avg_question_cnt, avg(answer_cnt) as avg_answer_cnt from
 user_profile group by university having avg(question_cnt) < 5 or avg(answer_cnt) < 20           # 聚合函数结果作为筛选条件时，不能用where，而是用having语法, having放在group by后面
+
+SQL21 浙江大学用户题目回答情况
+select qpd.device_id, qpd.question_id, qpd.result
+from question_practice_detail as qpd
+inner join user_profile as up
+on up.device_id = qpd.device_id and up.university = '浙江大学'
+order by question_id
+
+select device_id, question_id, result from question_practice_detail where device_id in
+(select device_id from user_profile where university = "浙江大学") order by question_id
+
+SQL22 统计每个学校的答过题的用户的平均答题数：
+select up.university, count(qpd.question_id) / count(distinct qpd.device_id) as avg_answer_cnt
+from question_practice_detail as qpd inner join user_profile as up on qpd.device_id = up.device_id group by university
