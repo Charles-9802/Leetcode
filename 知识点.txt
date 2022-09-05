@@ -82,5 +82,7 @@ SQL16 查找GPA最高值:
 select max(gpa) from user_profile where university = "复旦大学"
 select gpa from user_profile where university = "复旦大学" order by gpa desc limit 1    # desc 降序
 SQL17 计算男生人数以及平均GPA: select count(*) as male_num, avg(gpa) from user_profile where gender = "male"
-SQL18 分组计算练习题 :select gender, university, count(device_id) as user_num, avg(active_days_within_30) as avg_active_days, avg(question_cnt)
+SQL18 分组计算练习题: select gender, university, count(device_id) as user_num, avg(active_days_within_30) as avg_active_days, avg(question_cnt)
 as avg_question_cnt from user_profile group by gender, university                                   # 分组查询
+SQL19 分组过滤练习题：select university, avg(question_cnt) as avg_question_cnt, avg(answer_cnt) as avg_answer_cnt from
+user_profile group by university having avg(question_cnt) < 5 or avg(answer_cnt) < 20           # 聚合函数结果作为筛选条件时，不能用where，而是用having语法, having放在group by后面
