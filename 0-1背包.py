@@ -8,7 +8,6 @@
 #             if weight[i] > j:
 #                 dp[i][j] = dp[i-1][j]
 #             else:
-#                 # dp[i][j] = max(dp[i-1][j], dp[i-1][j-weight[i]] + value[i])
 #                 dp[i][j] = max(dp[i - 1][j], dp[i - 1][j - weight[i]] + value[i])
 #     return dp
 # weight = [1, 3, 4]
