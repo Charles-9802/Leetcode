@@ -28,3 +28,4 @@
 # size = 4
 # print(beibao_1D(size, weight, value))
 
+# 1D的时候只能先遍历物品再遍历背包，而且遍历背包要逆序。

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="701a1576-a9dc-4974-b1cb-4e55a6441752" name="Changes" comment="offerII056.py">
-      <change afterPath="$PROJECT_DIR$/0-1背包.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/offerII118.py" afterDir="false" />
+    <list default="true" id="701a1576-a9dc-4974-b1cb-4e55a6441752" name="Changes" comment="背包问题">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-1背包.py" beforeDir="false" afterPath="$PROJECT_DIR$/0-1背包.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,14 +197,7 @@
       <workItem from="1662616328132" duration="599000" />
       <workItem from="1662634902271" duration="7890000" />
       <workItem from="1662968206790" duration="32929000" />
-      <workItem from="1663205397747" duration="4569000" />
-    </task>
-    <task id="LOCAL-00008" summary="offferII063">
-      <created>1660616105015</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1660616105015</updated>
+      <workItem from="1663205397747" duration="6940000" />
     </task>
     <task id="LOCAL-00009" summary="知识点">
       <created>1660639894838</created>
@@ -543,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663126131844</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="背包问题">
+      <created>1663212129040</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1663212129040</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -576,7 +575,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="动态规划718" />
     <MESSAGE value="动态规划674" />
     <MESSAGE value="删除" />
     <MESSAGE value="动态规划718输出" />
@@ -601,7 +599,8 @@
     <MESSAGE value="offerII056" />
     <MESSAGE value="offerII119" />
     <MESSAGE value="offerII056.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="offerII056.py" />
+    <MESSAGE value="背包问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="背包问题" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leetcode$42.coverage" NAME="42 Coverage Results" MODIFIED="1661155991722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -618,7 +617,7 @@
     <SUITE FILE_PATH="coverage/leetcode$647.coverage" NAME="647 Coverage Results" MODIFIED="1661151386324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$392.coverage" NAME="392 Coverage Results" MODIFIED="1661090491703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$offerII118.coverage" NAME="offerII118 Coverage Results" MODIFIED="1663209742690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$0_1.coverage" NAME="0-1背包 Coverage Results" MODIFIED="1663211850998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$0_1.coverage" NAME="0-1背包 Coverage Results" MODIFIED="1663212099806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$offerII080.coverage" NAME="offerII080 Coverage Results" MODIFIED="1660530438223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$offerII057.coverage" NAME="offerII057 Coverage Results" MODIFIED="1663036789991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$offerII045.coverage" NAME="offerII045 Coverage Results" MODIFIED="1660530433802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
